@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ES2022",
+    "moduleResolution": "Node", // Node16 breaks SB in vite.config.ts
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["vite.config.ts", "api/**/*.ts"]
+}
