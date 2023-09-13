@@ -1,0 +1,8 @@
+{
+  "kerberos":{
+    "service":"HTTP@apisrv.agglo.local",
+    "fqdn":"vvdecha-smb"
+  },
+  "public": "./docs/.vitepress/dist",
+  "mongodb": "mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin"
+}

@@ -1,10 +1,24 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
 import { useMessages } from '../store/messages.store.ts'
+import { useAgents } from '../store/agents.store.ts'
 
 defineProps<{ msg: string }>()
 
+const agentsCacemStore = useAgents()
 const messagesStore = useMessages()
+
+
+let agentsCacem = reactive([])
+
+agentsCacemStore.find({ query: {} })
+  .then((r) => {
+    console.log('Agents response', r)
+    agentsCacem.push(...r.data)
+  })
+  .catch((r) => {
+    console.log('messages REJECTIOJ', r)
+  })
 
 let messages = reactive([])
 messages.push({ id: '0', text: 'Loading...' })

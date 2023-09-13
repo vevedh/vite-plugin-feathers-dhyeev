@@ -7,5 +7,17 @@ export const pinia = createPinia()
 
 export const { defineStore, BaseModel } = setupFeathersPinia({
   clients: { api },
-  idField: 'id'
+  idField: 'id',
+  //ssr: false,
+    whitelist: [],
+    //paramsForServer: [],
+    //skipGetIfExists: true,
+    customSiftOperators: {},
+    setupInstance(data) {
+      return data
+    },
+    customizeStore(defaultStore) {
+      return {}
+    },
+    services: {},
 })

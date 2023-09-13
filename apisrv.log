@@ -1,0 +1,374 @@
+[11/09/2023 11:03:07.316 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:03:07.333 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:03:07.336 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:03:07.338 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin[39m
+[11/09/2023 11:03:07.359 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:03:07.359 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:03:07.360 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:03:07.398 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://mongo:27017[39m
+[11/09/2023 11:03:07.398 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:03:07.733 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[11/09/2023 11:03:07.734 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[11/09/2023 11:03:37.362 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb n'est pas accessible ou est non configurée![39m
+
+[32m      Mongo url : mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin[39m
+[11/09/2023 11:03:37.364 PM] [36m[1minfo[22m[39m: [32m	Dans le fichier de configuration vous devez avoir une chaine de connexion accessible![39m
+
+[32m    Exemple de configuration:[39m
+
+[32m      "mongodb": "mongodb://localhost:27017/database?authSource=admin"[39m
+[32m [39m
+[11/09/2023 11:08:19.534 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:08:19.537 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:08:19.539 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:08:19.540 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:08:19.553 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:08:19.554 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:08:19.554 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:08:19.567 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:08:19.567 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:08:19.816 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:08:19.816 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:08:19.816 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:08:19.848 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[11/09/2023 11:08:19.848 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[11/09/2023 11:08:19.929 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":61440,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":1994752,"totalSizeMb":1,"ok":1}[39m
+[11/09/2023 11:13:15.677 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:13:15.685 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:13:15.690 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:13:15.690 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:13:15.715 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:13:15.716 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:13:15.717 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:13:15.746 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:13:15.748 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:13:15.935 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:13:15.936 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:13:15.936 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:13:15.990 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":73728,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2007040,"totalSizeMb":1,"ok":1}[39m
+[11/09/2023 11:13:16.016 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[11/09/2023 11:21:47.130 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:21:47.132 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:21:47.135 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:21:47.135 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:21:47.146 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:21:47.147 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:21:47.147 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:21:47.160 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:21:47.160 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:21:47.313 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:21:47.314 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:21:47.314 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:21:47.380 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[11/09/2023 11:21:47.391 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[11/09/2023 11:21:47.392 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[11/09/2023 11:22:11.212 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:22:11.214 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:22:11.216 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:22:11.216 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:22:11.227 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:22:11.227 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:22:11.228 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:22:11.241 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:22:11.242 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:22:11.373 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:22:11.373 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:22:11.374 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:22:11.424 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[11/09/2023 11:28:39.951 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:28:39.954 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:28:39.956 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:28:39.956 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:28:39.969 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:28:39.970 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:28:39.970 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:28:39.983 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:28:39.983 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:28:40.069 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:28:40.070 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:28:40.070 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:28:40.109 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[11/09/2023 11:31:18.740 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:31:18.745 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:31:18.751 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:31:18.774 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin[39m
+[11/09/2023 11:31:18.828 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:31:18.833 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:31:18.834 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:31:18.883 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://mongo:27017[39m
+[11/09/2023 11:31:18.883 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:31:19.853 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[11/09/2023 11:31:19.854 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[11/09/2023 11:31:48.835 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb n'est pas accessible ou est non configurée![39m
+
+[32m      Mongo url : mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin[39m
+[11/09/2023 11:31:48.836 PM] [36m[1minfo[22m[39m: [32m	Dans le fichier de configuration vous devez avoir une chaine de connexion accessible![39m
+
+[32m    Exemple de configuration:[39m
+
+[32m      "mongodb": "mongodb://localhost:27017/database?authSource=admin"[39m
+[32m [39m
+[11/09/2023 11:32:59.254 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:32:59.258 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[11/09/2023 11:32:59.260 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[11/09/2023 11:32:59.260 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[11/09/2023 11:32:59.270 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[11/09/2023 11:32:59.271 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[11/09/2023 11:32:59.271 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[11/09/2023 11:32:59.282 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[11/09/2023 11:32:59.282 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[11/09/2023 11:32:59.400 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[11/09/2023 11:32:59.401 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[11/09/2023 11:32:59.401 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[11/09/2023 11:32:59.444 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:39:27.138 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:39:27.142 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:39:27.145 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:39:27.145 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:39:27.159 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:39:27.159 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:39:27.160 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:39:27.190 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:39:27.190 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:39:27.383 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:39:27.384 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:39:27.384 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:39:27.434 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:42:05.399 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:42:05.401 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:42:05.404 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:42:05.405 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:42:05.416 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:42:05.416 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:42:05.417 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:42:05.432 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:42:05.432 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:42:05.560 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:42:05.561 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:42:05.561 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:42:05.611 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:44:31.611 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:44:31.613 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:44:31.615 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:44:31.616 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:44:31.626 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:44:31.626 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:44:31.627 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:44:31.642 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:44:31.643 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:44:31.773 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:44:31.776 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:44:31.777 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:44:31.840 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:49:10.688 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:49:10.691 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:49:10.693 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:49:10.693 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:49:10.704 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:49:10.705 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:49:10.705 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:49:10.716 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:49:10.716 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:49:10.820 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:49:10.821 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:49:10.821 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:49:10.859 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:50:22.743 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:50:22.746 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:50:22.748 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:50:22.748 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:50:22.759 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:50:22.760 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:50:22.760 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:50:22.785 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:50:22.785 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:50:22.908 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:50:22.909 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:50:22.910 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:50:22.959 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:50:23.386 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 09:50:23.386 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 09:57:14.934 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:57:14.937 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 09:57:14.939 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 09:57:14.940 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 09:57:14.950 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 09:57:14.951 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 09:57:14.951 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 09:57:14.962 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 09:57:14.962 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 09:57:15.196 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 09:57:15.292 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 09:57:15.292 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 09:57:15.293 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 09:57:15.352 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 09:57:15.801 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 09:57:15.802 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:02:30.018 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:02:30.019 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:02:30.021 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:02:30.021 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:02:30.029 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:02:30.029 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:02:30.029 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:02:30.039 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:02:30.039 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:02:30.058 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:02:30.266 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:02:30.266 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:02:30.267 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:02:30.322 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:02:30.400 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:02:30.405 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:02:30.412 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:02:30.415 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin[39m
+[12/09/2023 10:02:30.453 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:02:30.453 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:02:30.454 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:02:30.486 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://mongo:27017[39m
+[12/09/2023 10:02:30.486 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:02:30.814 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:02:31.025 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:02:31.026 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:02:31.398 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:02:31.399 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:03:15.506 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:03:15.509 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:03:15.511 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:03:15.512 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:03:15.524 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:03:15.525 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:03:15.525 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:03:15.539 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:03:15.539 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:03:15.754 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:03:15.884 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:03:15.885 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:03:15.886 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:03:15.930 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:03:16.901 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:03:16.903 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:04:55.974 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:04:55.976 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:04:55.977 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:04:55.978 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:04:55.988 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:04:55.988 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:04:55.989 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:04:56.000 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:04:56.000 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:04:56.026 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:04:56.107 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:04:56.110 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:04:56.112 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:04:56.194 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:04:56.690 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:04:56.692 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:09:42.132 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:09:42.135 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:09:42.138 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:09:42.138 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:09:42.151 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:09:42.151 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:09:42.152 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:09:42.166 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:09:42.166 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:09:42.385 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:09:42.501 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:09:42.502 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:09:42.502 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:09:42.550 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:09:42.850 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:09:42.851 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:25:51.453 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:25:51.455 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:25:51.457 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:25:51.458 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:25:51.470 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:25:51.471 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:25:51.472 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:25:51.510 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:25:51.511 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:25:51.750 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:25:51.935 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:25:51.936 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:25:51.936 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:25:52.023 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:25:52.200 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:25:52.201 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:27:11.594 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:27:11.595 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:27:11.598 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:27:11.598 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:27:11.609 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:27:11.609 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:27:11.610 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:27:11.622 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:27:11.622 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:27:11.830 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:27:11.930 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:27:11.930 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:27:11.930 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:27:11.992 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:27:12.067 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:27:12.068 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m
+[12/09/2023 10:45:15.000 PM] [36m[1merror[22m[39m: [32m	NotAuthenticated: Not authenticated[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+authentication@5.0.8\node_modules\@feathersjs\authentication\lib\hooks\authenticate.js:46:19)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.logError (/api_src/hooks/log-error.js:8:11)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.eventHook (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+feathers@5.0.0-pre.38\node_modules\@feathersjs\feathers\lib\events.js:10:12)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.hookChain (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:27:28)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:16:25)[39m
+[32m    at AgentsService.find (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:44:53)[39m
+[12/09/2023 10:45:33.772 PM] [36m[1merror[22m[39m: [32m	NotAuthenticated: Not authenticated[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+authentication@5.0.8\node_modules\@feathersjs\authentication\lib\hooks\authenticate.js:46:19)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.logError (/api_src/hooks/log-error.js:8:11)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.eventHook (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+feathers@5.0.0-pre.38\node_modules\@feathersjs\feathers\lib\events.js:10:12)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.hookChain (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:27:28)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:16:25)[39m
+[32m    at AgentsService.find (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:44:53)[39m
+[12/09/2023 10:46:55.090 PM] [36m[1merror[22m[39m: [32m	NotAuthenticated: Not authenticated[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+authentication@5.0.8\node_modules\@feathersjs\authentication\lib\hooks\authenticate.js:46:19)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.logError (/api_src/hooks/log-error.js:8:11)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.eventHook (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+feathers@5.0.0-pre.38\node_modules\@feathersjs\feathers\lib\events.js:10:12)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.hookChain (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:27:28)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:16:25)[39m
+[32m    at AgentsService.find (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:44:53)[39m
+[12/09/2023 10:47:09.021 PM] [36m[1merror[22m[39m: [32m	NotAuthenticated: Not authenticated[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+authentication@5.0.8\node_modules\@feathersjs\authentication\lib\hooks\authenticate.js:46:19)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.logError (/api_src/hooks/log-error.js:8:11)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.eventHook (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+feathers@5.0.0-pre.38\node_modules\@feathersjs\feathers\lib\events.js:10:12)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.hookChain (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:27:28)[39m
+[32m    at AgentsService.dispatch (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:30:43)[39m
+[32m    at AgentsService.<anonymous> (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\compose.js:16:25)[39m
+[32m    at AgentsService.find (F:\devs\vite-plugin-feathers\node_modules\.pnpm\@feathersjs+hooks@0.8.1\node_modules\@feathersjs\hooks\script\hooks.js:44:53)[39m
+[12/09/2023 10:47:55.147 PM] [36m[1minfo[22m[39m: [32m	Web local path : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:47:55.149 PM] [36m[1minfo[22m[39m: [32m	Web serveur : \src\docs\.vitepress\dist[39m
+[12/09/2023 10:47:55.151 PM] [36m[1minfo[22m[39m: [32m	Base de donnée : cacemdb[39m
+[12/09/2023 10:47:55.152 PM] [36m[1minfo[22m[39m: [32m	Base url de connexion : mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin[39m
+[12/09/2023 10:47:55.162 PM] [36m[1minfo[22m[39m: [32m	Ldap configuration : {"name":"ldap","url":"ldaps://dc21.agglo.local:636","bindDN":"ldapquery@AGGLO.LOCAL","bindCredentials":"Ldap@Cacem972","searchBase":"DC=AGGLO,DC=LOCAL","searchFilter":"(|(uid={{username}})(sAMAccountName={{username}}))","certca":"api_src/certs/cacem-racine.pem"}[39m
+[12/09/2023 10:47:55.162 PM] [36m[1minfo[22m[39m: [32m	Ldap connexionbinDN : "ldapquery@AGGLO.LOCAL"[39m
+[12/09/2023 10:47:55.163 PM] [36m[1minfo[22m[39m: [32m	Ldap connexion credentials : "Ldap@Cacem972"[39m
+[12/09/2023 10:47:55.177 PM] [36m[1minfo[22m[39m: [32m	Mongo url : mongodb://localhost:27019[39m
+[12/09/2023 10:47:55.177 PM] [36m[1minfo[22m[39m: [32m	Current db : cacemdb[39m
+[12/09/2023 10:47:55.375 PM] [36m[1mwarn[22m[39m: [32m	Publishing all events to all authenticated users. See `channels.js` and https://dove.feathersjs.com/api/channels.html for more information.[39m
+[12/09/2023 10:47:55.529 PM] [36m[1minfo[22m[39m: [32m	currentDatabase : cacemdb[39m
+[12/09/2023 10:47:55.530 PM] [36m[1minfo[22m[39m: [32m	mongodb_ok : true[39m
+[12/09/2023 10:47:55.530 PM] [36m[1minfo[22m[39m: [32m	Votre base de donnée Mongodb accessible configurée![39m
+[12/09/2023 10:47:55.620 PM] [36m[1minfo[22m[39m: [32m	Databases : {"databases":[{"name":"admin","sizeOnDisk":110592,"empty":false},{"name":"cacemdb","sizeOnDisk":1716224,"empty":false},{"name":"config","sizeOnDisk":110592,"empty":false},{"name":"local","sizeOnDisk":81920,"empty":false},{"name":"test","sizeOnDisk":8192,"empty":false},{"name":"test2","sizeOnDisk":8192,"empty":false},{"name":"test3","sizeOnDisk":8192,"empty":false}],"totalSize":2043904,"totalSizeMb":1,"ok":1}[39m
+[12/09/2023 10:47:55.627 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie avec succès![39m
+[12/09/2023 10:47:55.628 PM] [36m[1minfo[22m[39m: [32m	Connexion init ldap etablie settings![39m

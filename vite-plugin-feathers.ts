@@ -64,7 +64,7 @@ export function feathers({ app, port }: any = {}) {
             await server.ssrLoadModule(app)
           ).main()) as any
           sm.appListener = await sm.feathersApp.listen(sm.port)
-          // console.info('Feathers application started')
+           console.info('Feathers application started :'+sm.port)
         } catch (e) {
           server.ssrFixStacktrace(e)
           /**/ console.error(e)

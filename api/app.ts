@@ -71,10 +71,11 @@ export const main = async () => {
   // Publish all events to the `everybody` channel
   app.publish((_data) => app.channel('everybody'))
 
+  
   // For good measure let's create a message
   // So our API doesn't look so empty
   app.service('messages').create({
-    text: 'Hello world from the server!!!'
+    text: 'Hello world from veve server!!!'
   })
 
   return app

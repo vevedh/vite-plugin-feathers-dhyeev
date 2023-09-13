@@ -1,0 +1,11 @@
+{
+  "port": {
+    "__name": "PORT",
+    "__format": "number"
+  },
+  "host": "HOSTNAME",
+  "MONGODB_URL": "mongodb://admcacem:Cacem972@localhost:27019/cacemdb?authSource=admin",
+  "authentication": {
+    "secret": "FEATHERS_SECRET"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "./docs/.vitepress/dist",
+  "adminfolder": "./admin/",
+  "docsfolder": "./docs/",
+  "prj_folder": "./projets",
+  "admGroups": [
+    "Utilisateurs DSI"
+  ],
+  "mailTransport": {
+    "host": "mail.domain.fr",
+    "port": 587,
+    "secure": false,
+    "auth": {
+      "user": "notification@domain.fr",
+      "pass": "mailpassword"
+    },
+    "tls": {
+      "ciphers": "SSLv3"
+    }
+  },
+  
+  "paginate": {
+    "default": 10,
+    "max": 1000
+  },
+  "kerberos":{
+    "service":"HTTP@svrapi.agglo.local",
+    "fqdn":"svrapi.agglo.local"
+  },
+  "authentication": {
+    "entity": "user",
+    "service": "users",
+    "secret": "G-KaPdSgVkYp3s5v8y/B?E(H+MbQeThW",
+    "authStrategies": [
+      "jwt",
+      "local",
+      "ldap",
+      "sso",
+      "sso2"
+    ],
+    "oauth": {
+      "redirect": "/",
+      "keycloak": {
+        "key": "feathersjs-app",
+        "secret": "rQbYhK12XE6Ue1zYtgKPQenaQO0Y4KtB",
+        "oauth": 2,
+        "scope": ["feathersjs-app-dedicated"],
+        "authorize_url": "https://svrkeycloak.agglo.local:8443/realms/CACEM/protocol/openid-connect/auth",
+        "access_url": "https://svrkeycloak.agglo.local:8443/realms/CACEM/protocol/openid-connect/token",
+        "profile_url": "https://svrkeycloak.agglo.local:8443/realms/CACEM/protocol/openid-connect/userinfo",
+        "nonce": true
+      }
+    },
+    "jwtOptions": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "usernameField": "username",
+      "passwordField": "password"
+    },
+    "ldap": {
+      "name": "ldap",
+      "url": "ldaps://dc21.agglo.local:636",
+      "bindDN": "ldapquery@AGGLO.LOCAL",
+      "bindCredentials": "Ldap@Cacem972",
+      "searchBase": "DC=AGGLO,DC=LOCAL",
+      "searchFilter": "(|(uid={{username}})(sAMAccountName={{username}}))",
+      "certca":"api_src/certs/cacem-racine.pem"
+    }
+  },
+  "dc":"dc21.agglo.local",
+  "nedb": "../data",
+  "mongodb": "mongodb://admcacem:Cacem972@mongo:27017/cacemdb?authSource=admin"
+}
+
